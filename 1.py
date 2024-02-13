@@ -31,5 +31,8 @@ personal_details = {
 }
 
 for k,v in personal_details.items():
-    print("\n",k, ":", v)
+    print("\n",k, ":", v) # This is how we use for loop in a dictionary. They are iterated differently from lists, tuples, & strings sue to the fact 
+    #that they possess a key. In this case, the key is the variable k and the value is the variable v.
+
     
+        
