@@ -57,5 +57,16 @@ def add(*numbers):
 add(1, 2, 3, 4, 5)
 add(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
 
-# 
 
+
+# The above example shows variable arguments, which are passed to a function as a tuple.
+# Here's an example of Keyword Arguments in Python:
+# keyword arguments are used to pass arguments to a function in a key-value pair. In a keyword argument the order of argument does not matter. 
+# As long as they are passed in the correct order, the function will work.
+# Here's an example:
+
+def person(name, age):
+    return f"\nHello {name}, you are {age} years old."
+
+details = person(age=22, name="Abishek")
+print(details)
