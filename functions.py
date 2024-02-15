@@ -55,7 +55,7 @@ def add(*numbers):
     print(f"The sum of the numbers is: {sum}")
 
 add(1, 2, 3, 4, 5)
+add(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
 
-
-
+# 
 
