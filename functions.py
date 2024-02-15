@@ -27,3 +27,15 @@ def calc_age(birth_year) -> int:
 
 age = calc_age(2000)
 print(age)
+
+print("Here we have another example: \n")
+
+def person(name, money):
+    """A function that takes 2 args, name and money and returns the person's name and money."""
+    coffee_cost = 4
+    if money >= coffee_cost:
+        print(f"Hello {name}, you can buy a coffee.")
+    else:
+        print(f"Hello {name}, you can't buy a coffee.")
+
+person("Abishek", 4)
