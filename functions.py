@@ -39,3 +39,23 @@ def person(name, money):
         print(f"Hello {name}, you can't buy a coffee.")
 
 person("Abishek", 4)
+
+
+
+# Variable number of arguments in a function. Sometimes we don't know how many arguments a function will take, so we can use variable number of arguments.
+# In Python, we can use *args to pass variable number of arguments to a function.
+# Here's an example:
+
+def add(*numbers):
+    """A function that takes variable number of arguments and returns their sum."""
+    sum = 0 
+    for number in numbers:
+        sum += number
+    
+    print(f"The sum of the numbers is: {sum}")
+
+add(1, 2, 3, 4, 5)
+
+
+
+
