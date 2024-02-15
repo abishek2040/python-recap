@@ -70,3 +70,26 @@ def person(name, age):
 
 details = person(age=22, name="Abishek")
 print(details)
+
+
+
+
+# Summary for the functions chapter: 
+
+# A function is a block of code that performs a specific task. Which can be reused by calling the function. 
+
+# We should create a single function for one task, which helps us to manage our code much efficiently. 
+
+# Should a function return or print: The answer depends on the task and the obbjective of the function, if the function just wants to display the result on the screen, 
+# then it should print the result and if it needs to store the result in a variable, then it should return the result.
+
+# Variable number of arguments in a function: We can use *args to pass variable number of arguments to a function.
+
+# Keywords arguments can be used to pass arguments to a function in a key-value pair, in which the order of the arguments doesn't matter as long as they are passed in a key-value pair. 
+
+# Parameter Type Hinting: We can use type hinting to specify the type of the parameter in a function. for example, if we are expecting an argument for age of a person, we'd always like that 
+# value to be an integer. Thus, we can use type hinting to specify the type of the parameter like this: def person(name: str, age: int) -> str:
+
+# Default parameter values: We can specify default values for parameters in a function, in situations where we are unsure if we'll receive a value or not. 
+
+
