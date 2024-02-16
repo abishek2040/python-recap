@@ -24,3 +24,31 @@ print()
 dog2.bark()
 dog2.run()
 
+print()
+print("We see an example of another class: ")
+
+# The fund class
+
+class Funds:
+
+    total_expenses = 0
+    total = 0
+
+    def __init__(self, total):
+        """This is the constructor, we populate it with the total amount available when we construct the object. """
+        self.total = total
+    
+    def set_expense(self, expense):
+        """Stores the money we have spend"""
+        self.total_expenses += expense
+    
+    def get_funds_left(self):
+        return self.total - self.total_expenses
+    
+fund = Funds(200)
+fund.set_expense(10)
+fund.set_expense(20)
+
+# prints the amount left to the screen 
+amount_left =fund.get_funds_left()
+print(f"Amount left: {amount_left}")
