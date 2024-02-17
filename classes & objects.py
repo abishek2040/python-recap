@@ -33,6 +33,10 @@ class Funds:
 
     total_expenses = 0
     total = 0
+    # Added a variable to hold any error messages we may encounter.
+    error = ""
+
+    # Constructor, we populate it with the total amount available when we construct the object.
  
     def __init__(self, total):
         """This is the constructor, we populate it with the total amount available when we construct the object. """
@@ -40,12 +44,19 @@ class Funds:
     
     def set_expense(self, expense):
         """Stores the money we have spend"""
-        self.total_expenses += expense
+        if self.get_funds_left() > expense:
+            self.total_expenses += expense
+            return True
+        self.error = "Not enough funds"
+        return False
     
     def get_funds_left(self):
         return self.total - self.total_expenses
     
-fund = Funds(200)
+    def get_error(self):
+        return self.error
+    
+fund = Funds(10)
 fund.set_expense(10)
 fund.set_expense(20)
 
