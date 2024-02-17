@@ -33,7 +33,7 @@ class Funds:
 
     total_expenses = 0
     total = 0
-
+ 
     def __init__(self, total):
         """This is the constructor, we populate it with the total amount available when we construct the object. """
         self.total = total
