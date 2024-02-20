@@ -7,3 +7,5 @@ from name import nam
 
 user1 = nam("Wayne", "Rooney")
 user1.print_name()
+
+# This is a very simple example of how we can import different methods to different python files, which can help us maintain our code, and manage readability as well. 
