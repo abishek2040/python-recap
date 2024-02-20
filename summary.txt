@@ -1,0 +1,76 @@
+# Summary for this chapter on python Recap: 
+
+1. Variables: 
+    i. String = "string" or 'string'
+    ii. Integer = "numbers" like 1,2,3,4,5,6,7,8, -10, -9, -8, etc.
+    iii. Float  = "numbers with decimal value" like 10.5, 20.50, etc
+    iv. Boolean = True or False
+    v. Object  = Your own custom object 
+
+2. Arrays: 
+    i.  List = [1,2,3,4,5] : Structured storage of data. Mutable, values can be access through indexes. 
+    ii. Tuples = (1,2,3,4,5): Similar like lists but the value cannot be changed, so immutable storage of data. 
+    iii. dictionaries = {"Key": "value"}: Unstructured, key,value data store value can be accesses by the keys. 
+
+3. Control Statement: 
+    i. If statement is one of the most used control flow statement in python: Here's a basic syntax
+
+        if expression: 
+            something
+        else another expression:
+            something else
+    
+4. Loops: 
+    i. For Loop: For loop is one of the 2 loops in python, used mostly to iterate through data structures like list, tuples, dictionaries, strings and sets. 
+    Here's a basic example of for loop in python: 
+        for i in set_of_data:
+            print(i)
+    
+    ii. While Loop: While loop is another loop type in python, which runs until the given condition is met, so for example:
+        while True:
+            run this expression
+            use the break statement to break the loop. 
+
+
+5. Functions: Functions are reusable pieces of code, that once written can be used multiple times by just using the name. It speeds up development process, #
+   and improves readability and manageability of the code. 
+
+   Here's an example of a function: 
+   
+   def addition(num1, num2):
+       return sum = num1 + num2 
+    
+   print(addition(1,2)) # Prints out 3 
+
+
+6. Classes: Classes are the blue print of creating objects and one of the most important aspects of OOP, they contain attributes, data and behaviors of objects.
+   Objects: They are the instances of the class. 
+   Let's see an example of Class in python. 
+
+   class Animal:
+       def __init__(self,name, species, age) :
+           self.name = name
+           self.species = species
+           self.age = age
+        
+       def details(self):
+           print(f"The name is: {self.name}, species: {self.species}, age: {self.age}.")
+        
+
+    animal1 = Animal("Rocky", "Dog", 6)
+    animal1.details()
+
+
+7. Exception handling in python is a way to provide user freindly error messages in a way that can be understood by humans. 
+for that we use the try-except block
+
+for example: 
+    try:
+        code
+    except:
+        handle Exception
+    finally: (used else in most cases)
+        this code will run regardless
+    
+8. Import - to import modules from different files to the main executable python file. 
+
