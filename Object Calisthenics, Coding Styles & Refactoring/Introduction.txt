@@ -10,4 +10,31 @@ We will discuss 8 of the 9 principles of the Object calisthenics, we are missing
 
 1. Do not exceed one level of indentation per method: 
     Try to use as less indentation in your methods as you can to improve the readability of your code and to help structure your code as well.
+
+
+2. Do not use the else Keyword:
+    We just learned the else keyword and here we are discussing about not using the else statement, the else is a control flow statement, that is used alongside with  The
+    if-else statement. Here I'll show you some alternatives to use else in your code to make it more readable and to follow the Object Caslisthenics principle. 
+
+    # Here's an example of using else in your program to make it much more readable. 
     
+    number = 10 
+    if number == 10:
+        print(10)
+    else:
+        print("Not 10")
+    
+    # Here, we can write the above code as - First Refactoring. 
+    message = "Not 10"
+    if number == 10:
+        print(10)
+    print(message) # The program prints what's inside the variable message if the given number is not == 10. 
+
+    # Here's a second refactoring to the above code,
+
+    def check_ten():
+        if number == 10:
+            print(10)
+        return "not 10"
+    
+    print(check_10())
