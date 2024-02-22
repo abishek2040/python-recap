@@ -38,3 +38,14 @@ We will discuss 8 of the 9 principles of the Object calisthenics, we are missing
         return "not 10"
     
     print(check_10())
+
+3. Wrap all primitives and strings: Primitives are the built in data types like boolean, integers, floats and strings.
+
+4. Use only one dot per line. 
+
+5. Don't Abbreviate
+
+6. Keep Entities small. - No class should be over 50 lines, this cannot always be achieved but one should try to follow. 
+
+7. Limit classes to use no more than 2 instance variables: This does improves the readability of your code, but is not always achieveable. 
+
