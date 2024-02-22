@@ -1,0 +1,3 @@
+# This chapter is solely based on how to style our code and make it more readable to others. 
+# As Harold Abelson famously said that the code you write is mostly for another engineer to read and rarely for a machine to execute. 
+# 
