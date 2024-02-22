@@ -1,3 +1,13 @@
-# This chapter is solely based on how to style our code and make it more readable to others. 
-# As Harold Abelson famously said that the code you write is mostly for another engineer to read and rarely for a machine to execute. 
-# 
+This chapter is solely based on how to style our code and make it more readable to others. 
+As Harold Abelson famously said that the code you write is mostly for another engineer to read and rarely for a machine to execute. 
+
+Object Calisthenics: Is a nine step principle or a guideline to make your code much more readable. It is not a hard and fast rule which is mandatory to use or follow 
+in every piece of code or project but it is advised that it should be followed to improve the readability of your code. 
+
+We will discuss 8 of the 9 principles of the Object calisthenics, we are missing out on the 1 principle as I think it might cause confusion for new developers like myself. 
+
+8 Rules of Object Calisthenics: 
+
+1. Do not exceed one level of indentation per method: 
+    Try to use as less indentation in your methods as you can to improve the readability of your code and to help structure your code as well.
+    
