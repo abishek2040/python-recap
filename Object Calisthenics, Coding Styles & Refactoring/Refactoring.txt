@@ -1,0 +1,14 @@
+Along side writing code that solves a problem, refactoring is one of the most important part of your coding journey. 
+You'll have to refactor your code to improve readability which helps others to review your code, or sometimes you'll have to refactor your colleagues code. 
+Thus, refactoring is an important skill for a software developer. Here we'll discuss tips and tricks of refactoring code for software engineering. 
+
+The best practice is to refactor your code as early as possuible whenever the work is still fresh in your memory. 
+Refactoring your code will aid in readability, reusability and extendability of your code. extendability can be referred as how easily new features can be added to your code. 
+reusability is whether your code can be reused in different portions of the system. Of these 3 aspects, never underestimate the power of readability. 
+
+So, in short: 
+
+1. Plan Your code
+2. Write Your code
+3. Refactor Your code
+
