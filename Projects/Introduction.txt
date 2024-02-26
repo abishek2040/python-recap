@@ -2,4 +2,3 @@ This is a section dedicated to the real world program examples that I'll solve.
 
 I have tried to learn python multiple times mostly by following step-by-step guides, but I've come to know that only following guides is not
 enough to master programming unless you manage to make your own projects or solve real world programs. 
-
